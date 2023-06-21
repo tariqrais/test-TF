@@ -8,4 +8,7 @@ variable "tenancy" {}
 variable "cidr_block_subnet" {}
 
 # Tags
-variable "name" {}
+variable "name" {
+    type = string
+}
+  
